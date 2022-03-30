@@ -48,10 +48,10 @@ public class RPNStacker {
 			}
 			aux = stck.desempilha();
 			result = Integer.parseInt(aux);
-			out.println(result); //GERA UM ARQUIVO DE SAÕDA
+			out.println(result); //GERA UM ARQUIVO DE SA√çDA
 			System.out.println(result); //IMPRIME O RESULTADO
 		} catch (FileNotFoundException e){
-			System.out.println("Arquivo n„o encontrado");
+			System.out.println("Arquivo n√£o encontrado");
 		}
 	}
 }
@@ -63,14 +63,12 @@ class Stack {
 	}
 	private Celula topo;
 	private int tam;
-	// OperaÁıes
+	// Opera√ß√µes
 	public Stack () { 
 		// Cria uma Pilha vazia
 		this.topo = null; 
 		this.tam = 0;
 	}
-	// Continua na prÛxima transparÍncia
-
 	public void empilha (String x) {
 		Celula aux = this.topo;
 		this.topo = new Celula () ;
